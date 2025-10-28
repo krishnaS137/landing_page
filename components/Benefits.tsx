@@ -95,7 +95,7 @@ const Benefits = () => {
                         delay={0}
                         startOnView={false}
                     >
-                       Where creativity flows and HOT ideas connect.
+                       Where creativity flows and HOT ideas compete.
                     </TypingAnimation>
                 </motion.div>
             )}
