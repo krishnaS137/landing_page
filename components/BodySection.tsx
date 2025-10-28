@@ -5,16 +5,16 @@ import { RotatingTextDemo } from './ui/RotatingText'
 const BodySection = () => {
   const texts=[
     'Where Creators Stay HOT',
-    'Sign up, set up, and step into the spotlight..',
+    'Join In. Stand Out. Shine Bright.',
     'Post what you love. Find who loves it too.',
-    'Earn love, not just likes.',
+    'Compete. Connect. Conquer.',
     'Keep it HOT. Keep it real.',
   ]
   const subtexts=[
-    'Welcome to House of Talent — the social media hub that celebrates creativity in all its forms. From dance trends to fashion reels, share what makes you YOU. Get noticed, get inspired, and keep your feed HOT.',
-    'Find your people, share your world, and be part of the next big thing on HOT.',
+    'House of Talent isn’t just a platform — it’s your arena. Share your art, own the spotlight, and turn your everyday content into a journey toward fame and recognition.',
+    'Create your profile, connect with trendsetters, and make your mark in the HOT community. Every big name starts somewhere — start here.',
     'From dance moves to daily thoughts — express yourself freely and discover others doing the same.',
-    'Every post, story, or moment brings you closer to people who genuinely value your creativity.',
+    'Compete in HOT challenges, turn your creativity into impact, and earn genuine love from a community that celebrates real talent.',
     'Share your moments, your creativity, and your vibe — because authenticity is what makes this community glow.',
   ]
   return (

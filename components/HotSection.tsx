@@ -23,10 +23,10 @@ const HotSection = () => {
           <BoxReveal boxColor={"#A52A2A"} duration={0.5}>
             <div className="mt-4 sm:mt-6 text-base sm:text-lg md:text-[1.3rem] space-y-3 text-center md:text-left">
               <p className='mb-3'>
-                -&gt; Get the spotlight to showcase your Talent.<br />
+                -&gt; Step up, stand out, and own your spotlight..<br />
               </p>
               <p className='mb-3'>
-                -&gt; Share your creativity and reach new audiences every day.<br />
+                -&gt; Compete, create, and climb the leaderboard.<br />
               </p>
               <p className='mb-3'>
                 -&gt; Build your circle, no matter your starting followers.

@@ -30,7 +30,7 @@ const Benefits = () => {
         {/* Row 1: text then image (mobile stacks with gap) */}
         <div className='flex flex-col items-center gap-6 md:flex-row md:items-center md:gap-8'>
           <TextReveal className='w-full md:flex-1 md:-ml-4'>
-            It all begins with you.Step into a space where creators connect, share, and grow together.Your journey starts the moment you hit “Join.”
+          Your next big chapter starts here. Dive into HOT — the place where creators vibe, compete, and glow together. One click on “Join,” and the spotlight’s on you.
           </TextReveal> 
           <img 
             src="/Images/pexels-rdne-4910377.jpg" 
@@ -42,7 +42,7 @@ const Benefits = () => {
         {/* Row 2: image then text on desktop; text above image on mobile */}
         <div className='flex flex-col-reverse items-center gap-6 md:flex-row md:items-center md:gap-8'>
           <TextReveal className='w-full md:flex-1 md:mr-10'>
-            From dance to daily stories, there’s something for everyone.Share your moments. Connect with new creators.
+          From quick clips to daily thoughts, creativity lives here. Express yourself, explore others, and grow your circle.
           </TextReveal>
           <img 
             src="/Images/pexels-sofus-34164951.jpg" 
@@ -54,7 +54,7 @@ const Benefits = () => {
         {/* Row 3: text then image */}
         <div className='flex flex-col items-center gap-6 md:flex-row md:items-center md:gap-8'>
           <TextReveal className='w-full md:flex-1 md:-ml-4'>
-            Victory feels even better when it’s shared.Earn recognition. Grow your audience. Shine.
+          Winning’s great — but winning together hits different. Join challenges, earn your spotlight, and grow with every victory.
           </TextReveal>
           <img 
             src="/Images/pexels-wendywei-1190298.jpg" 
@@ -66,7 +66,7 @@ const Benefits = () => {
         {/* Row 4: image then text on desktop; text above image on mobile */}
         <div className='flex flex-col-reverse items-center gap-6 md:flex-row md:items-center md:gap-8'>
           <TextReveal className='w-full md:flex-1 md:mr-10'>
-            Sharing is what makes it legendary.Post your moments. Celebrate with friends.
+          What’s epic alone becomes iconic together. Post it, tag your people, and turn moments into memories worth celebrating.
           </TextReveal>
           <img 
             src="/Images/pexels-pavel-danilyuk-7180617.jpg" 
