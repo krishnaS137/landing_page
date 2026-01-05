@@ -125,3 +125,8 @@
     animation: none;
     mix-blend-mode: normal;
 }
+
+@keyframes scrolling {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}

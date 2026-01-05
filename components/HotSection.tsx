@@ -1,6 +1,6 @@
 import React from 'react'
 import { BoxReveal } from './ui/box-reveal'
-import { Button } from './ui/button'
+
 
 const HotSection = () => {
   return (
