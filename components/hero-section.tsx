@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { HeroHeader } from './header'
-import { InfiniteSlider } from '@/components/ui/infinite-slider'
 import { ProgressiveBlur } from '@/components/ui/progressive-blur'
 import { IconCloud } from './magicui/icon-cloud'
 import { motion } from 'motion/react'
@@ -60,14 +59,14 @@ export default function HeroSection() {
                                     <div className='flex gap-5 pr-5 will-change-transform animate-[scrolling_10s_linear_infinite] group-hover:[animation-play-state:paused]'>
                                         {
                                             data.map((data,index)=>(
-                                                <InfinityCards image={data.img} content={data.review}/>
+                                                <InfinityCards image={data.img} content={data.review} key={index}/>
                                             ))
                                         }
                                     </div>
                                     <div aria-hidden className='flex gap-5 pr-5 will-change-transform animate-[scrolling_10s_linear_infinite] group-hover:[animation-play-state:paused]'>
                                         {
                                             data.map((data,index)=>(
-                                                <InfinityCards image={data.img} content={data.review}/>
+                                                <InfinityCards image={data.img} content={data.review} key={index}/>
                                             ))
                                         }
                                     </div>

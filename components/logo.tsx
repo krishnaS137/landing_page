@@ -13,7 +13,7 @@ export const Logo = ({ className, uniColor }: { className?: string; uniColor?: b
     )
 }
 
-export const LogoIcon = ({ className, uniColor }: { className?: string; uniColor?: boolean }) => {
+export const LogoIcon = ({ className }: { className?: string; uniColor?: boolean }) => {
     return (
         <span
             aria-label="Logo"
