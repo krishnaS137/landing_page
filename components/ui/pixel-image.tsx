@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { useEffect, useMemo, useState, useRef } from "react";
+import Image from "next/image";
 
 type Grid = {
   rows: number;
@@ -133,7 +134,7 @@ export const PixelImage = ({
             transitionDuration: `${pixelFadeInDuration}ms`,
           }}
         >
-          <img
+          <Image
             src={src}
             alt={`Pixel image piece ${index + 1}`}
             className={cn(
