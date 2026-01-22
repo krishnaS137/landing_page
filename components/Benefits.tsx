@@ -1,5 +1,5 @@
 'use client'
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect,useRef } from 'react'
 import { TextReveal } from './ui/text-reveal'
 import { VideoText } from './ui/video-text'
 import { TypingAnimation } from './ui/typing-animation'
@@ -8,7 +8,7 @@ import Image from 'next/image'
 import HotSection from './HotSection'
 
 const Benefits = () => {
-  const containerRef = React.useRef<HTMLDivElement>(null)
+  const containerRef = useRef<HTMLDivElement>(null)
   const [showTyping, setShowTyping] = useState(false)
   
   const { scrollYProgress } = useScroll({
