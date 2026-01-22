@@ -15,7 +15,7 @@ const InfinityCards = ({ image, content }: { image: string; content: string }) =
       "
     >
       <div className="flex items-start gap-3">
-        <Image
+        <img
           src={image}
           alt="Image"
           className="rounded-full size-10 object-cover"
